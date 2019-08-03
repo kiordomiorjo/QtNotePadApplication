@@ -1,2 +1,12 @@
-<!DOCTYPE RCC>
-<RCC version="1.0"/>
+<RCC>
+    <qresource prefix="/images">
+        <file>Open.bmp</file>
+        <file>New.bmp</file>
+        <file>Save.bmp</file>
+        <file>Cut.bmp</file>
+        <file>Copy.bmp</file>
+        <file>Paste.bmp</file>
+        <file>Sticky.bmp</file>
+        <file>DeleteSticky.bmp</file>
+    </qresource>
+</RCC>
