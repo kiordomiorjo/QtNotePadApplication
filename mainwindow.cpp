@@ -71,16 +71,19 @@ void MainWindow::on_actionCopy_triggered()
 
 void MainWindow::on_actionPaste_triggered()
 {
+    // bind to widget
     ui->textEdit->paste();
 }
 
 void MainWindow::on_actionCut_triggered()
 {
+    // bind to widget
     ui->textEdit->cut();
 }
 
 void MainWindow::on_actionUndo_triggered()
 {
+    // bind to widget
     ui->textEdit->undo();
 }
 
